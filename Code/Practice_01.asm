@@ -6,7 +6,7 @@
 .model small    ; Used for Assembler 64kb code or 64kb data segment
 .stack 100      ; stack segment 100h
 .data
-;All the varuables are declared in data segment
+;All the variables are declared in data segment
     msg db 'Assembly Language Programming $'
 .code
     main PROC

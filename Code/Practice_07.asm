@@ -6,7 +6,7 @@
 .data
     msg db 'Enter the First Number : $'
     msg1 db 0dh,0ah,  'Enter the Second Number $'
-    msg2 db 0dh,0ah, 'Sum of two numbers = $'
+    msg2 db 0dh,0ah, 'Multiplication of two numbers = $'
     num1 db ?
     num2 db ?
 .code
