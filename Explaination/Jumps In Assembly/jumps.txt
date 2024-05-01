@@ -1,0 +1,36 @@
+
+Unconditional Jumps:
+____________________
+
+1. JMP (Jump): Transfer control unconditionally to a specified address.
+2. CALL (Call Procedure): Transfer control to a subroutine, saving the return address.
+3. RET (Return): Return from a subroutine to the calling routine.
+
+Conditional Jumps:
+__________________
+
+
+1. JE (Jump if Equal): Jump if the zero flag is set (indicating equality).
+2. JNE (Jump if Not Equal): Jump if the zero flag is clear (indicating inequality).
+3. JG (Jump if Greater): Jump if the sign flag is clear and the zero flag is clear.
+4. JGE (Jump if Greater or Equal)**: Jump if the sign flag is clear.
+5. JL (Jump if Less): Jump if the sign flag is set.
+6. JLE (Jump if Less or Equal): Jump if the sign flag is set or the zero flag is set.
+7. JA (Jump if Above): Jump if the carry flag and zero flag are clear (unsigned greater).
+8. JAE (Jump if Above or Equal): Jump if the carry flag is clear (unsigned greater or equal).
+9. JB (Jump if Below): Jump if the carry flag is set (unsigned less). used in single bits
+10. JBE (Jump if Below or Equal): Jump if the carry flag is set or the zero flag is set (unsigned less or equal).
+11. JLB (Jump if Lower): Jumps if the carry flag is set or the zero flag is set, often used for signed comparisons.
+12. JZ (Jump if Zero):Jumps if the zero flag is set, typically used to check if a result is zero or a condition is met.
+
+
+Some More:
+__________
+
+13. JC (Jump if Carry): Jump if the carry flag is set.
+14. JNC (Jump if No Carry): Jump if the carry flag is clear.
+15. JS (Jump if Sign): Jump if the sign flag is set (negative).
+16. JNS (Jump if No Sign): Jump if the sign flag is clear (positive or zero).
+17. JO (Jump if Overflow): Jump if the overflow flag is set.
+18. JNO (Jump if No Overflow): Jump if the overflow flag is clear.
+
